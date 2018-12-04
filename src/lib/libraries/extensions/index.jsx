@@ -175,6 +175,78 @@ export default [
         helpLink: 'https://scratch.mit.edu/microbit'
     },
     {
+        name: 'Birdbrain Finch',
+        extensionId: 'birdbrainFinch',
+        iconURL: microbitImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with the world."
+                description="Description for the 'micro:bit' extension"
+                id="gui.extension.microbit.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        peripheralImage: microbitPeripheralImage,
+        smallPeripheralImage: microbitMenuImage,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their micro:bit."
+                id="gui.extension.microbit.connectingMessage"
+            />
+        ),
+        helpLink: 'https://scratch.mit.edu/microbit'
+    },
+    {
+        name: 'Birdbrain Hummingbird',
+        extensionId: 'birdbrainHummingbird',
+        iconURL: microbitImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with the world."
+                description="Description for the 'micro:bit' extension"
+                id="gui.extension.microbit.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        peripheralImage: microbitPeripheralImage,
+        smallPeripheralImage: microbitMenuImage,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their micro:bit."
+                id="gui.extension.microbit.connectingMessage"
+            />
+        ),
+        helpLink: 'https://scratch.mit.edu/microbit'
+    },
+    {
+        name: 'Birdbrain Hummingbird Bit',
+        extensionId: 'birdbrainHummingbirdBit',
+        iconURL: microbitImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with the world."
+                description="Description for the 'micro:bit' extension"
+                id="gui.extension.microbit.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        peripheralImage: microbitPeripheralImage,
+        smallPeripheralImage: microbitMenuImage,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their micro:bit."
+                id="gui.extension.microbit.connectingMessage"
+            />
+        ),
+        helpLink: 'https://scratch.mit.edu/microbit'
+    },
+    {
         name: 'LEGO MINDSTORMS EV3',
         extensionId: 'ev3',
         collaborator: 'LEGO',
