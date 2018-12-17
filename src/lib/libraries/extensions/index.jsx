@@ -16,6 +16,9 @@ import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
 import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
+import finchInsetImage from './finch-small.png';
+import hummingbirdInsetImage from './hummingbird-small.png';
+import hummingbirdBitInsetImage from './hummingbird-bit-small.png';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -187,6 +190,7 @@ export default [
         ),
         featured: true,
         disabled: false,
+        insetIconURL: finchInsetImage,
         peripheralImage: microbitPeripheralImage,
         smallPeripheralImage: microbitMenuImage,
         connectingMessage: (
@@ -195,8 +199,7 @@ export default [
                 description="Message to help people connect to their micro:bit."
                 id="gui.extension.microbit.connectingMessage"
             />
-        ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        )
     },
     {
         name: 'Birdbrain Hummingbird',
@@ -211,6 +214,7 @@ export default [
         ),
         featured: true,
         disabled: false,
+        insetIconURL: hummingbirdInsetImage,
         peripheralImage: microbitPeripheralImage,
         smallPeripheralImage: microbitMenuImage,
         connectingMessage: (
@@ -219,8 +223,7 @@ export default [
                 description="Message to help people connect to their micro:bit."
                 id="gui.extension.microbit.connectingMessage"
             />
-        ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        )
     },
     {
         name: 'Birdbrain Hummingbird Bit',
@@ -235,6 +238,7 @@ export default [
         ),
         featured: true,
         disabled: false,
+        insetIconURL: hummingbirdBitInsetImage,
         peripheralImage: microbitPeripheralImage,
         smallPeripheralImage: microbitMenuImage,
         connectingMessage: (
@@ -243,8 +247,7 @@ export default [
                 description="Message to help people connect to their micro:bit."
                 id="gui.extension.microbit.connectingMessage"
             />
-        ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        )
     },
     {
         name: 'LEGO MINDSTORMS EV3',
@@ -304,6 +307,5 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
-
     }
 ];
